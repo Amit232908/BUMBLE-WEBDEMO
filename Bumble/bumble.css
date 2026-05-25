@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "BumbleSans", "BumbleSansFallback", -apple-system, "San Francisco", "Helvetica Neue", Roboto, "Segoe WP", "Segoe UI", sans-serif;;
+}
+
+
+/* nav --------------------------------------------*/
+nav{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    /* border: solid red; */
+    /* background-color: #ffdb5b; */
+}
+.nav-container{
+    height: 52px;
+    /* border: solid yellow; */
+    margin: 24px 0px;
+}
+.nav-container .nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 65px;
+}
+li{
+    list-style: none;
+}
+.logo{
+    color: #3b3b3b;
+    font-size: 39px;
+    letter-spacing: 0.5px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* padding: 13px 25px; */
+    border-radius: 14px;
+    background-color: #FFFFFFCC;
+    border: 1px solid #20202014;
+}
+
+.nav-links li{
+    color: #202020;
+    font-size: 17px;
+    font-weight: 500;
+    /* border: solid red; */
+    padding: 13px 18px;
+    border-radius: 14px;
+
+}
+.nav-links li:hover{
+    background-color: #fff;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.nav-login{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-login .icon{
+    /* border: solid red; */
+    padding: 14px 22px;
+    background-color: #FFFFFFCC;
+    border-radius: 14px;
+}
+.nav-login .icon:hover{
+    background-color: #FFF;
+
+}
+.nav-login .Sign-in{
+    /* border: solid red; */
+    padding: 14px 22px;
+    background-color: #202020;
+    color: #fff;
+    border-radius: 14px;
+}
+.nav-login .Sign-in:hover{
+    background-color: #343333;
+}
+.nav-login .icon i{
+    font-size: 21px;
+    color: #202020;
+}
+.nav-login .Sign-in{
+    font-size: 17px;
+}
+
+
+/* hero--------------------------------------- */
+.hero-container{
+    height: 110vh;
+    background-color: #ffdb5b;
+}
+.hero-container p{
+    font-size: 400px;
+    color: #3b3b3b;
+    font-weight: 600;
+    padding-top: 160px ;
+    padding-left: 65px;
+    cursor:not-allowed;
+}
+
+/* download-bumble-container------------------------ */
+
+.download-bumble-container{
+    height: 90vh;
+    /* border: solid red; */
+    display: flex;
+    padding:120px;
+}
+.hero-content h2{
+    font-size: 65px;
+    color: #202020;
+}
+.hero-content p{
+    font-size: 20px;
+    margin: 17px 0px;
+}
+.hero-button{
+    margin-top: 50px;
+}
+.hero-button a{
+ /* border: solid red; */
+ background-color: #202020;
+ padding: 15px 18px;
+ border-radius: 14px;
+ color: #fff;
+ text-decoration: none;
+ font-weight: 600;
+
+}
+.hero-button a:hover{
+    background-color: #343333;
+}
+.hero-img{
+    position: relative;
+    margin-left: 70px;
+}
+.hero-img .h-img1{
+    height: 450px;
+    width: 350px;
+    border-radius: 14px;
+    position: absolute;
+    z-index: 3;
+}
+
+.hero-img .h-img2{
+    height: 400px;
+    width: 300px;
+    border-radius: 14px;
+    position: absolute;
+    top: 30px;
+    left: 165px;
+    z-index: 2;
+}
+.hero-img .h-img3{
+    height: 350px;
+    width: 250px;
+    border-radius: 14px;
+    position: absolute;
+    top: 60px;
+    left: 320px;
+    z-index: 1;
+}
+
+
+/* share-your-idea------------------------- */
+.share-your-idea{
+    height: 110vh;
+    /* border: solid green; */
+}
+.share-your-idea .syi-box{
+    /* height: 100vh; */
+    margin: 67px;
+    border-radius: 14px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+.syi-box img{
+    border-radius: 14px;
+    margin: 40px;
+}
+.syi-box-content{
+    /* padding: 30px; */
+    padding-right: 60px;
+}
+.syi-box-content h2{
+    font-size: 62px;
+    color: #202020;
+}
+.syi-box-content p{
+    font-size: 20px;
+    margin: 8px ;
+}
+.syi-button{
+    margin-top: 50px;
+}
+.syi-button a{
+ background-color: #202020;
+ padding: 15px 53px;
+ border-radius: 17px;
+ color: #fff;
+ text-decoration: none;
+ font-weight: 600;
+}
+.syi-button a:hover{
+    background-color: #343333;
+}
+
+/* bumble-date-bff-container =---------------------- */
+.bumble-date-bff-container{
+    height: 85vh;
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding:0px 70px 70px 70px;
+    gap: 20px;
+    
+}
+.bumble-date-bff-container .same{
+    background-color: #ffdb5b;
+    border-radius: 18px;
+    padding: 20px;
+
+}
+.bumble-date-bff-container .same:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bumble-date-bff-container .div2{
+    background-color: #fff386;
+}
+.bumble-date-bff-container .same img{
+    /* margin: 20px; */
+    border-radius: 17px;
+}
+.bumble-date-bff-container h3{
+    font-size: 34px;
+    margin-top: 15px;
+    color:#202020;
+}
+.bumble-date-bff-container p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #3b3b3b;
+}
+.bumble-date-bff-container a{
+    color: #222;
+}
+
+/* -- read more stories -------------------------- */
+.rms-container{
+    height: 85vh;
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+.rms-container h3{
+    font-size: 48px;
+    color: #202020;
+}
+.rms-container p{
+    font-size: 19px;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+.rms-button a{
+     background-color: #202020;
+    padding: 15px 29px;
+    border-radius: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.rms-button a:hover{
+    background-color: #343333;
+}
+.rms-img{
+        margin-left: 50px;
+}
+.rms-img img{
+    border-radius: 17px;
+
+
+}
+
+/* get the app ---------------------------- */
+.gta-container{
+    height: 78vh;
+    /* border: solid red; */
+}
+.gta-sub-div{
+    background-color: #ffdb5b;
+    height: 62.8vh;
+    margin: 70px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.gs-content h2{
+    color: #202020;
+    font-size: 70px;
+}
+.gs-content p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.gs-content img{
+    border-radius: 17px;
+}
+
+/* foot container --------------------------------- */
+.foot-container{
+    height: 50vh;
+    /* border: solid red; */
+    margin-top: -50px;
+    display: flex;
+}
+.foot-container h1{
+    font-size: 85px;
+    color:#3b3b3b;
+    width: 50%;
+    margin-left: 60px;
+}
+.foot-head {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-left: -30px;
+}
+.foot-head p{
+    color: #575656;
+    margin-top: 20px;
+}
+.foot-head ul li{
+    color: #222;
+    font-size: 20px;
+    margin-top: 17px;
+    font-weight: 500;
+}
+.legal-items ul li{
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* footer ------------------- */
+footer{
+    height: 32vh;
+    width: 100%;
+    /* border: solid red; */
+    /* padding-left: 60px; */
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    height: 200px;
+    /* border: solid greenyellow; */
+    width: 380px;
+    background-color: #ffdb5b;
+    border-radius: 17px;
+    padding: 12px;
+}
+.foot img{
+    float: left;
+    border-radius: 17px;
+    margin-right: 15px;
+}
+.foot p{
+    font-size: 20px;
+    color: #202020;
+    /* text-align: center; */
+    margin-top: 45px;
+    font-weight: 500;
+}
+.foot-endicons ul {
+    display: flex;
+    gap: 23px;
+    font-size: 25px;
+    /* height: 100%; */
+    margin-top: 170px;
+}
+
+.foot-logo{
+    padding: 12px 25px;
+    /* background-color: #FFFFFFCC; */
+    border-radius: 14px;
+    border:1px solid #343333;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 160px;
+}
+    
