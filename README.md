@@ -23,8 +23,8 @@ Bumble Landing Page Clone is a modern front-end web application inspired by the 
 
 To run this project locally:
 
-Clone this repository or download the ZIP
-Open bumble.html in your browser
+1. Clone this repository or download the ZIP
+2. Open bumble.html in your browser
 
 
 # 🖼️ Live Demo
