@@ -28,4 +28,6 @@ To run this project locally:
 
 
 # 🖼️ Live Demo
+*only for laptop user*
+
 https://bumble-webdemo.netlify.app/
