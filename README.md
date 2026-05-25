@@ -31,8 +31,7 @@ Open bumble.html in your browser
 
 Add your deployed link here:
 
-https://your-demo-link.netlify.app/
-
+bumble-webdemo.netlify.app
 
 
 ![Image](your-screenshot-link)
